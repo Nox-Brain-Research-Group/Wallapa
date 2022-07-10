@@ -1,0 +1,21 @@
+{
+    "name": "wallapa",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:Chan-O-Hackathon/Wallapa.git",
+    "author": "lebrancconvas <lebrancconvas@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*",
+        "services/*"
+    ],
+    "devDependencies": {
+        "lerna": "^5.1.4"
+    },
+    "scripts": {
+        "start": "lerna run start",
+        "test": "",
+        "w:info": "yarn workspaces info" 
+    }
+}
